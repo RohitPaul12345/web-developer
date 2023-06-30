@@ -2,10 +2,10 @@
 
 global.firefoxPackageName = "web-developer-firefox.zip";
 
-var del         = require("del");
-var exec        = require("child_process");
-var gulp        = require("gulp");
-var runSequence = require("run-sequence");
+let del         = require("del");
+let exec        = require("child_process");
+let gulp        = require("gulp");
+let runSequence = require("run-sequence");
 
 gulp.task("build-firefox-all", function()
 {
