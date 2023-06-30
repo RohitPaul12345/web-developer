@@ -1,14 +1,14 @@
 "use strict";
 
-var dateFormat       = require("dateformat");
-var filterProperties = require("gulp-filter-java-properties");
-var fs               = require("fs");
-var gulp             = require("gulp");
-var gutil            = require("gulp-util");
-var lazypipe         = require("lazypipe");
-var log              = require('fancy-log');
-var plugins          = require("gulp-load-plugins")();
-var runSequence      = require("run-sequence");
+let dateFormat       = require("dateformat");
+let filterProperties = require("gulp-filter-java-properties");
+let fs               = require("fs");
+let gulp             = require("gulp");
+let gutil            = require("gulp-util");
+let lazypipe         = require("lazypipe");
+let log              = require('fancy-log');
+let plugins          = require("gulp-load-plugins")();
+let runSequence      = require("run-sequence");
 
 global.errorHandler = function(error, emitEnd, task)
 {
