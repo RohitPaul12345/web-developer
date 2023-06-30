@@ -1,7 +1,7 @@
 "use strict";
 
-var gulp    = require("gulp");
-var plugins = require("gulp-load-plugins")();
+let gulp    = require("gulp");
+let plugins = require("gulp-load-plugins")();
 
 global.packageTask = function(browserName, packageName)
 {
