@@ -2,8 +2,8 @@
 
 global.imageminConfiguration = { interlaced: true, multipass: true, optimizationLevel: 7, progressive: true, svgoPlugins: [{ removeViewBox: false }] };
 
-var gulp    = require("gulp");
-var plugins = require("gulp-load-plugins")();
+let gulp    = require("gulp");
+let plugins = require("gulp-load-plugins")();
 
 gulp.task("minify-images", function()
 {
