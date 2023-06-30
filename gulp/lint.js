@@ -1,8 +1,8 @@
 "use strict";
 
-var exec    = require("child_process");
-var gulp    = require("gulp");
-var plugins = require("gulp-load-plugins")();
+let exec    = require("child_process");
+let gulp    = require("gulp");
+let plugins = require("gulp-load-plugins")();
 
 gulp.task("lint-javascript", function()
 {
