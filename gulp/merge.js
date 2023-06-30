@@ -1,8 +1,8 @@
 "use strict";
 
-var del     = require("del");
-var gulp    = require("gulp");
-var plugins = require("gulp-load-plugins")();
+let del     = require("del");
+let gulp    = require("gulp");
+let plugins = require("gulp-load-plugins")();
 
 gulp.task("clean-merge", function()
 {
