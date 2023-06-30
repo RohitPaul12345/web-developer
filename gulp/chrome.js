@@ -2,9 +2,9 @@
 
 global.chromePackageName = "web-developer-chrome.zip";
 
-var del         = require("del");
-var gulp        = require("gulp");
-var runSequence = require("run-sequence");
+let del         = require("del");
+let gulp        = require("gulp");
+let runSequence = require("run-sequence");
 
 gulp.task("build-chrome-all", function()
 {
