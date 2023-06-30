@@ -1,8 +1,8 @@
 "use strict";
 
-var gulp    = require("gulp");
-var merge   = require("merge-stream");
-var plugins = require("gulp-load-plugins")();
+let gulp    = require("gulp");
+let merge   = require("merge-stream");
+let plugins = require("gulp-load-plugins")();
 
 global.buildAbout = function(browserName)
 {
